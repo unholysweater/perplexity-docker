@@ -2,6 +2,12 @@
 
 This is functionally a fork of [nanoPerplexityAI](https://github.com/Yusuke710/nanoPerplexityAI). I've containerized the tool to circumvent requirements installation on an arch system. I would recommend managing the Open AI API key as a secret, and reading it into an alias. This allows for spinning up the container in one command, and querying. For now, generated responses will have to be grabbed from the console directly, versus the generated .md being saved directly.
 
+## Getting started
+```
+docker build -t nanoperplexityai .
+docker run -it --env OPENAI_API_KEY=<your_key> nanoperplexityai
+```
+
 ## Architecture notes (from nanoPerplexityAI)
 
 1. Get the user query
