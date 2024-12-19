@@ -1,6 +1,6 @@
 # nanoPerplexityAI wrapper
 
-This is functionally a fork of [nanoPerplexityAI](https://github.com/Yusuke710/nanoPerplexityAI). I've containerized the tool to circumvent requirements installation on an arch system. I would rather compartmentalize it into a container rather than actively collect python requirements. I would recommend managing the Open AI API key as a secret, and reading it into an alias. This allows for spinning up the container in one command, and querying. For now, generated responses will have to be grabbed from the console directly, versus the generated .md being saved directly.
+This is functionally a fork of [nanoPerplexityAI](https://github.com/Yusuke710/nanoPerplexityAI). I've containerized the tool to circumvent requirements installation on an arch system. I would recommend managing the Open AI API key as a secret, and reading it into an alias. This allows for spinning up the container in one command, and querying. For now, generated responses will have to be grabbed from the console directly, versus the generated .md being saved directly.
 
 ## Architecture notes (from nanoPerplexityAI)
 
